@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Visit the NWS in St. Louis")
+
+if st.button("Redirect to Application Website"):
+    st.write(f"[Apply](https://mmais2342.wixsite.com/nwstour2025)")
